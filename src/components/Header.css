@@ -1,0 +1,15 @@
+.home {
+  margin-right: 50px;
+}
+
+.navbar {
+  background-color: #fab73d;
+  color: black;
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .home {
+    margin-right: 0;
+  }
+}

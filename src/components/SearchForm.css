@@ -1,0 +1,9 @@
+.search_bar {
+  width: 700px;
+}
+
+@media (max-width: 576px) {
+  .search_bar {
+    width: 250px; /* Adjust the width as per your preference */
+  }
+}

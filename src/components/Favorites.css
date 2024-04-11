@@ -1,0 +1,32 @@
+.favorite_container {
+  padding: 60px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.heading {
+  margin: 40px;
+}
+
+.favorite_image {
+  width: 150px;
+  border-radius: 50%;
+}
+
+@media (max-width: 576px) {
+  .favorite_container {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .heading {
+    margin-top: 80px;
+  }
+
+  .favorite_image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+}

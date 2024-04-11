@@ -1,0 +1,51 @@
+.container {
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.card_hover {
+  width: 20em;
+  border-radius: 20px;
+  height: 450px;
+  background-color: whitesmoke;
+}
+
+.card_hover:hover {
+  cursor: pointer;
+}
+
+.recipe_image {
+  padding: 20px;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+.recipe_image:hover {
+  transform: scale(1.1); /* Zoom in by 10% when hovering over the image */
+}
+
+.image-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 20px;
+  }
+
+  .card_hover {
+    height: 400px;
+  }
+
+  .recipe_image {
+    height: 200px;
+    width: 200px;
+  }
+}
