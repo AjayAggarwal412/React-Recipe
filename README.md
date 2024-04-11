@@ -32,6 +32,7 @@ http://localhost:3000
 
 - Search for recipes by keywords.
 - View recipe details including ingredients and nutritional information.
+- Favorite Recipes are stored in local storage so that you can get your favorite meal anytime.
 - Add or remove recipes from favorites.
 - View and manage favorite recipes on a dedicated Favorites page.
 
